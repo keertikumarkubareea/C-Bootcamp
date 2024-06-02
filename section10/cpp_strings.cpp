@@ -96,7 +96,7 @@ int main(){
 	cout << test.find("test") << endl; // 10
 	cout << test.find("e") << endl; // 11
 	cout << test.find("is", 4) << endl; // 5 // find "is" starting at index 4
-	cout << test.find("XX") << endl; // string::npos
+	cout << test.find("XX") << endl; // string::npos - can be used to test if a sub-string is present
 	
 	// Removing characters
 	// object.erase(starting_index, length);
